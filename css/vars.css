@@ -1,0 +1,42 @@
+:root {
+    font-size: 10px;
+    
+    --main: #35AD6C;
+    --accent: #0A1863;
+    --black: #000;
+    --black-50: rgba(0,0,0,0.5);
+    --white: #fff;
+    --grey: #C4C4C4;
+    --blue: #5E94E5;
+    --orange: #F99438;
+    --burgundy: #D13A0A;
+    --yellow: #FBD613;
+    --violet: #A97DE0;
+    --pink: #E163BE;
+    
+
+    --main-title-top: 24px;
+    --main-title-sub: 40px;
+    --fz-section-title: 48px;
+    --fz-card-title: 24px;
+    --fz-p: 20px;
+    --fz-copyright: 32px;
+
+
+    --radius: 10px;
+    --radius-sm: 5px;
+    --container: min( 1270px, calc( 100vw - 50px));
+
+    --transition: 0.3s;
+    --xs: 576px;
+    --s: 768px;
+    --m: 992px;
+    --lg: 1200px;
+    --xl: 1400px;
+}
+@media( max-width: 992px) {
+    :root {
+        --main-title-top: 18px;
+        --main-title-sub: 20px;
+    }
+}
